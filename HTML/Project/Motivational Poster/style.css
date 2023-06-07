@@ -1,0 +1,21 @@
+.poster {
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 100px;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  text-align: center;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+.motivation-img {
+  border: 5px solid white;
+  width: 100%;
+}

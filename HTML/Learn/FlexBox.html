@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .container {
+        display: flex;
+        /* you can use inline flex for reality same row with hello minh duc i love you */
+        gap: 10px;
+        flex-direction: row;
+        /* row , column */
+        flex-wrap: nowrap;
+        /*no wrap when increase item*/
+        justify-content: space-between;
+        /* flex-start, flex-end,center, space-between,space-round,space-evenly */
+        align-items: center;
+        height: 70vh;
+        /* flex-start,flex-end, center */
+    }
+
+    .row {
+        background-color: midnightblue;
+        flex-basis: 100px;
+        /* only increase height or width/
+    }
+
+    .row2 {
+        align-self: flex-start;
+        /* use for one item specially */
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="row">Hello</div>
+        <div class="row row2">Minh Duc</div>
+        <div class="row row3">I love you</div>
+    </div>
+    <div class="container">
+        Reality
+    </div>
+</body>
+
+</html>
