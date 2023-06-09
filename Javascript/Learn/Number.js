@@ -1,0 +1,3 @@
+var n = Math.random(); // 0 -> 0.9999999.............
+var x = Math.floor(n); // n=1.9 ->x=1 , n=-3.7 ->x=-4
+var range = Math.random() * max + min;
