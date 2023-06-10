@@ -6,3 +6,5 @@ var reomoveClassToTag = document
 var onoffClassToTag = document
   .querySelector("h1")
   .classList.toggle("nameClass");
+document.querySelector("a").getAttribute;
+document.querySelector("a").setAttribute("href", "link");
