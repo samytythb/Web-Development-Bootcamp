@@ -14,3 +14,13 @@ function bmiCalculator(weight, height) {
   }
   return interpretation;
 }
+function a(names){
+  var x= math.floor(Math.random()*names.length)
+  console.log(names[x] +" is going to buy lunch today!");
+}
+if (n===1){
+
+}if (n===2){
+
+}
+
