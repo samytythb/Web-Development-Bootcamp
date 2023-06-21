@@ -1,0 +1,8 @@
+git status // check file in staging area
+git diff + name file // check diff of file
+git checkout + namefile // back to preivous version of file
+.gitignore
+git branch // check all branches
+git branch + namesubbranch // create sub branch
+git checkout + name branch // move to branch other
+git merge + name sub branch // merge sub branch and main branch ( position to merge : main branch)

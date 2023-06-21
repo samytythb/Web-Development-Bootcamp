@@ -1,0 +1,4 @@
+// structure
+// flexible
+// relationship
+// Scalability
