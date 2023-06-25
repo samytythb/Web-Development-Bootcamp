@@ -20,3 +20,4 @@ const notes = [
     content: "Learn mor about IT",
   },
 ];
+export default notes;
