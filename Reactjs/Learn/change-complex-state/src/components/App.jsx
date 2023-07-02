@@ -21,7 +21,7 @@ function App(){
     }
 return <div>
     <h1>Hello {fullName.fName} {fullName.lName}</h1>
-    <form >
+    <form>
         <input name="fName" onChange={handleChange} type="text" placeholder="Enter First Name" 
         value={fullName.fName} />
         <input name="lName" onChange={handleChange} type="text" placeholder="Enter Last Name" value={fullName.lName} />
