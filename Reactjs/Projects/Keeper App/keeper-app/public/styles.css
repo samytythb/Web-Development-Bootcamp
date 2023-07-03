@@ -8,6 +8,7 @@ body {
   line-height: 1.4;
   font-family: "McLaren", cursive;
   font-weight: 400;
+  background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
 }
 header {
   background: #f5ba13;
@@ -75,7 +76,8 @@ form button {
   position: absolute;
   right: 0;
   bottom: 0;
-  padding: 4px 6px;
+  padding: 1px 1px;
+  border-radius: 50%;
   border: none;
   background-color: #f5ba13;
   cursor: pointer;
