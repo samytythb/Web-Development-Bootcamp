@@ -46,3 +46,39 @@ footer p {
   white-space: pre-wrap;
   word-wrap: break-word;
 }
+.note button {
+  float: right;
+  border: 0;
+  background-color: white;
+  color: #f5ba13;
+  font-weight: bold;
+  cursor: pointer;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 20px auto;
+  position: relative;
+  box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.3);
+}
+form input {
+  padding: 4px 10px;
+  border: none;
+}
+form textarea {
+  padding: 4px 40px 4px 10px;
+  border: none;
+}
+form button {
+  max-width: 40px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 4px 6px;
+  border: none;
+  background-color: #f5ba13;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
