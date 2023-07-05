@@ -4,7 +4,7 @@ import Footer from "./Footer.jsx";
 import Note from "./Note.jsx";
 import notes from "../note.js";
 import CreateArea from "./CreateArea.jsx";
-import Zoom from "@mui/material/Zoom";
+
 
 function App() {
   const [notes, setNotes] = useState([]);
